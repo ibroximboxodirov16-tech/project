@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background: green;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav h1{
+    font-size: 33px;
+    font-family: sans-serif;
+    color: white;
+}
+
+main{
+    margin-top: 70px;
+}
